@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Škola Web Dizajna</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 100%;">
+    <header>
+        <table width="100%" style="margin: 0; padding: 0;">
+            <tr>
+                <td align="right" style="padding-right: 40px;">
+                    <a href="https://www.facebook.com" target="_blank" title="Facebook" style="text-decoration: none;">
+                        <i class="fab fa-facebook" style="font-size: 1.5em; margin-left: 10px; color: #ea2041;"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" title="Instagram" style="text-decoration: none;">
+                        <i class="fab fa-instagram" style="font-size: 1.5em; margin-left: 10px; color: #ea2041;"></i>
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank" title="YouTube" style="text-decoration: none;">
+                        <i class="fab fa-youtube" style="font-size: 1.5em; margin-left: 10px; color: #ea2041;"></i>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <header style="background-color: #141414; width: 100%; padding: 10px 0;">
+        <table width="100%" style="margin: 0; padding: 0;">
+            <tr>
+                <td width="30%" align="left">
+                    <a href="index.html" title="Početna stranica" style="text-decoration: none;">
+                        <img width="210px" height="100px" src="slike/logo.jpg" alt="Logo">
+                    </a>
+                </td>
+                <td width="65%" align="left" style="padding-left: 730px;">
+                    <a href="index.html" style="text-decoration: none; color: white;">Početna</a>
+                    <a href="onama.html" style="text-decoration: none; color: white; margin-left: 15px;">O nama</a>
+                    <a href="kursevi.html" style="text-decoration: none; color: white; margin-left: 15px;">Kursevi</a>
+                    <a href="utisci.html" style="text-decoration: none; color: white; margin-left: 15px;">Utisci</a>
+                    <a href="kontakt.html" style="text-decoration: none; color: white; margin-left: 15px;">Kontakt</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <section style="background-color: #f4f4f4; padding: 20px;">
+        <table width="100%">
+            <tr>
+                <td width="15%"></td>
+                <td width="70%" align="center">
+                    <h1>Kontaktirajte nas</h1>
+                    <p>
+                        Imate pitanja ili trebate dodatne informacije? Javite nam se putem naše kontakt forme ili nas posjetite na adresi <b>Vilsonovo šetalište 16</b>.
+                    </p>
+                </td>
+                <td width="15%"></td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <table width="60%" align="center" style="margin-top: 20px;">
+            <tr>
+                <td align="center" colspan="2">
+                    <h3>Pošaljite nam poruku</h3>
+                    <form method="POST" action="mailto:skolawebdizajna@gmail.com" enctype="text/plain">
+                        <table>
+                            <tr>
+                                <td align="right">Ime i prezime:</td>
+                                <td><input type="text" name="ime" placeholder="Vaše ime" required></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Email adresa:</td>
+                                <td><input type="email" name="email" placeholder="Vaša email adresa" required></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Telefon:</td>
+                                <td><input type="tel" name="telefon" placeholder="Broj telefona"></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Tema:</td>
+                                <td>
+                                    <select name="tema" required>
+                                        <option value="">--Odaberite temu--</option>
+                                        <option value="Kursevi">Kursevi</option>
+                                        <option value="Cijene">Cijene</option>
+                                        <option value="Upis">Upis</option>
+                                        <option value="Ostalo">Ostalo</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">Poruka:</td>
+                                <td><textarea name="poruka" rows="5" cols="30" placeholder="Vaša poruka..." required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <input type="submit" value="Pošalji">
+                                    <input type="reset" value="Poništi">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section style="margin-top: 20px; text-align: center;">
+        <h2>Naša lokacija</h2>
+        <p>Vilsonovo šetalište 16, Sarajevo</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.5449046144446!2d18.391449915723!3d43.85037797911544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c91f7f69c1ef%3A0x467f7e76c36d8e40!2sVilsonovo%20%C5%A0etali%C5%A1te%2016%2C%20Sarajevo!5e0!3m2!1sen!2sba!4v1699981349827!5m2!1sen!2sba" 
+            width="80%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </section>
+    <footer style="background-color: #ee2a50; padding: 20px;">
+        <table width="100%">
+            <tr>
+                <td width="20%"></td>
+                <td width="30%" align="left">
+                    <h1 style="color: white;">Škola Web Dizajna</h1>
+                    <h3 style="color: white;">Radno vrijeme: Ponedjeljak - Petak, 9:00 - 17:00</h3>
+                </td>
+                <td width="30%" align="left">
+                    <h2 style="color: white;">Kontakt</h2>
+                    <p style="color: white;">Email: skolawebdizajna@gmail.com</p>
+                    <p style="color: white;">Telefon: +387 33 123 456</p>
+                </td>
+                <td width="20%"></td>
+            </tr>
+        </table>
+    </footer>
+    <footer>
+        <p align="center">Stranicu kreirala Ena Karić <i class="fa fa-heart"></i></p>
+    </footer>
+</body>
+</html>
